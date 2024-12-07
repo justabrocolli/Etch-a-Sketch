@@ -1,0 +1,24 @@
+#grid-container{
+    display: grid;
+    grid-template-rows:repeat(16, 16px);
+    grid-template-columns:repeat(16, 16px);
+    justify-content: center;
+   
+}
+
+.cellGrid{
+    border: 1px solid black;
+}
+
+h1.title{
+    text-align: center;
+}
+
+.change{
+    padding-top: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
